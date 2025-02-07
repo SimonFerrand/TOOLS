@@ -70,16 +70,19 @@ def main():
     """
     Main function to define source and destination folders and execute file copy and rename.
     """
+
+    # source_folder = r"E:/Programmation/GitHub/BIOREACTOR_DESIGN"
+
     # source_folder = r"E:/Programmation/GitHub/BIOREACTOR/integration/arduino_mega/Main"
     # source_folder = r"E:/Programmation/GitHub/BIOREACTOR/integration/HETEROTROPHIC/XS/teensy/Main"
     # source_folder = r"E:/Programmation/GitHub/Quant_Trading_Framework/src"
     # source_folder = r"E:/Programmation/GitHub/BIOREACTOR/development/communication/MQTT_FreeRTOS_OTA_WebControl_ESP32/MQTT_FreeRTOS_OTA_WebControl_ESP32"
     # source_folder = r"E:/Programmation/GitHub/BIOREACTOR/integration/HETEROTROPHIC/WATER_BATH/main"
-    # 
+    # source_folder = r"E:/Programmation/GitHub/BIOREACTOR/integration/HETEROTROPHIC/XS/teensy/Main"
+    source_folder =r"E:/Programmation/GitHub/BIOREACTOR/integration/SERVER/raspberry_pi/ServerFastAPI/ServerFastAPI/frontend/src/components"
     
-    #source_folder = r"E:/Programmation/GitHub/BIOREACTOR/integration/PROCESS/WATER_HEATER"
-    source_folder = r"E:/Programmation/GitHub/BIOREACTOR_DESIGN"
-
+    #source_folder = r"E:/Programmation/GitHub/BIOREACTOR/integration/PROCESS/WATER_HEATER/WATER_HEATER_ESP32"
+    #source_folder = r"E:/Programmation/GitHub/BIOREACTOR"
     
     
     destination_folder = create_project_folder_on_desktop("Project Copy txt")

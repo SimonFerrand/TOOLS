@@ -58,7 +58,8 @@ Ce script utilise un fichier `.env` pour stocker de manière sécurisée le toke
     matplotlib
     tqdm
     python-dotenv
-   ```
+    ```
+    
 ## Code testé avec configuration suivante :
 - Carte graphique NVIDIA 16 Go
 - Mémoire RAM : 80 Go

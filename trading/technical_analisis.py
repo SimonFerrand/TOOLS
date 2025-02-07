@@ -433,6 +433,6 @@ def run_analysis(ticker="NVDA", days=180):
         raise
 
 if __name__ == "__main__":
-    run_analysis(ticker="NVDA", days=180)
-    # run_analysis(ticker="TSLA", days=180)
+    #run_analysis(ticker="NVDA", days=180)
+    run_analysis(ticker="TSLA", days=180)
     input("Appuyez sur Entrée pour fermer le programme...")

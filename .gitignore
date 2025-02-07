@@ -1,7 +1,10 @@
 # Exclude specific config files
 trading/day_trading_technical.py
-image_generation/image_generation_Flux1_v2.ipynb
 image_generation/.env
+image_generation/image_generation_Flux1_v2.ipynb
+image_generation/image_generation_Flux1-Copy1.ipynb
+
+
 
 # Exclude specific images in docs
 
